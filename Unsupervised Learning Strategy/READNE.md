@@ -21,3 +21,9 @@ Garman-Klass volatility is a statistical measure that estimates the price volati
 The RSI, or Relative Strength Index, is a technical analysis indicator that measures the speed and magnitude of recent price changes to identify overbought or oversold conditions in a stock or market. It is displayed as an oscillator on a scale of 0 to 100, with values above 70 traditionally considered overbought and below 30 considered oversold. Developed by J. Welles Wilder Jr., the RSI helps traders assess bullish and bearish momentum and potential trend reversals by analyzing the ratio of average gains to average losses over a specific number of periods
 
 ![RSI](./images/RSI.png)
+
+## Bollinger Bands
+
+Bollinger Bands are a technical analysis indicator that measures volatility and identifies potential overbought or oversold conditions in a financial instrument. They consist of three lines: a middle line which is a 20-period simple moving average (SMA), an upper band set two standard deviations above the SMA, and a lower band set two standard deviations below the SMA.
+
+![Bollinger-bands](./images/bollinger-bands.png)

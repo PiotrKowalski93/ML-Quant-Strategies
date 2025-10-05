@@ -38,8 +38,10 @@ print(df)
 df['garman_klass_vol'] = ((np.log(df['high'])-np.log(df['low']))**2)/2 - (2*np.log(2)-1)*((np.log(df['adj close'])-np.log(df['open']))**2)
 
 ## RSI
+df['rsi'] = df.groupby(level=1)['adj close'].transform(lambda x: ta.rsi(close=x, length=20))
 
 ## Bollinger Bands
+
 
 ## ATR
 

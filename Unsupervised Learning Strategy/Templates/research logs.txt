@@ -1,0 +1,16 @@
+# RSI Backtest — 2025-10-05
+
+## Cel
+Sprawdzić efektywność RSI(20) na SPY w danych dziennych 2010–2024.
+
+## Hipoteza
+RSI < 30 → kupno, RSI > 70 → sprzedaż.
+
+## Wyniki
+- CAGR: 5.2%
+- Max drawdown: -18%
+- Sharpe: 0.72
+
+## Wnioski
+Wydajność poprawia się przy RSI(10). 
+Warto przetestować filtr EMA(50).

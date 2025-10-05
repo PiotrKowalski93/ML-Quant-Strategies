@@ -1,0 +1,22 @@
+quant-lab/
+│
+├── README.md                     ← główny opis projektu
+├── notebooks/                    ← analizy, backtesty, testy modeli
+│   ├── strategy_mean_reversion.ipynb
+│   └── strategy_momentum.ipynb
+│
+├── research/                     ← teoria + wnioski + eksperymenty
+│   ├── 2025-10-05_rsi_backtest.md
+│   ├── 2025-10-10_market_microstructure.md
+│   └── notes_order_book_design.md
+│
+├── data/                         ← zbiory danych, sample CSV
+│
+├── indicators/                   ← kod wskaźników technicznych
+│
+├── engine/                       ← matching engine / backtest core
+│
+└── docs/                         ← materiały teoretyczne
+    ├── glossary.md               ← Twój słownik pojęć Quant/HFT
+    ├── roadmap.md                ← Twoja mapa rozwoju
+    └── architecture.md           ← schematy systemu i flow danych
